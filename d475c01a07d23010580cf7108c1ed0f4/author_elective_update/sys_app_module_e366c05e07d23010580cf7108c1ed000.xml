@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="NeedIt">2b66441e07d23010580cf7108c1ed069</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Open</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_690352_needit_needit</name>
+        <order>3</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query>active=true^EQ</query>
+        <report/>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-01 20:07:37</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e366c05e07d23010580cf7108c1ed000</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Open</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_690352_needit">d475c01a07d23010580cf7108c1ed0f4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">d475c01a07d23010580cf7108c1ed0f4</sys_scope>
+        <sys_update_name>sys_app_module_e366c05e07d23010580cf7108c1ed000</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-01 20:07:37</sys_updated_on>
+        <timeline_page/>
+        <title>Open</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">d475c01a07d23010580cf7108c1ed0f4</application>
+        <file_path/>
+        <instance_id>96f0fc66db077304f492c597059619fc</instance_id>
+        <instance_name>dev90937</instance_name>
+        <name>sys_app_module_e366c05e07d23010580cf7108c1ed000</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="NeedIt">2b66441e07d23010580cf7108c1ed069</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Open</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_690352_needit_needit</name><order>3</order><override_menu_roles>false</override_menu_roles><query>active=true^EQ</query><report/><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-09-01 20:07:37</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>e366c05e07d23010580cf7108c1ed000</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Open</sys_name><sys_overrides/><sys_package display_value="NeedIt" source="x_690352_needit">d475c01a07d23010580cf7108c1ed0f4</sys_package><sys_policy/><sys_scope display_value="NeedIt">d475c01a07d23010580cf7108c1ed0f4</sys_scope><sys_update_name>sys_app_module_e366c05e07d23010580cf7108c1ed000</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-09-01 20:07:37</sys_updated_on><timeline_page/><title>Open</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>-1818629089</payload_hash>
+        <record_name>Open</record_name>
+        <reverted_from/>
+        <source>5c75c01a07d23010580cf7108c1ed0f6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-01 20:07:37</sys_created_on>
+        <sys_id>af66c05e07d23010580cf7108c1ed001</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17ba2f960f70000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-01 20:07:37</sys_updated_on>
+        <type>Module</type>
+        <update_guid>e766c05e42d23010fb7feaf618328f01</update_guid>
+        <update_guid_history>e766c05e42d23010fb7feaf618328f01:-1818629089</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Open">b897809e07d23010580cf7108c1ed0d4</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-01 20:12:37</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>0018b6d2fc8142449e8b8c6090262c44</sys_id>
+        <sys_metadata>e366c05e07d23010580cf7108c1ed000</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Open</sys_name>
+        <sys_package display_value="NeedIt" source="x_690352_needit">d475c01a07d23010580cf7108c1ed0f4</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">d475c01a07d23010580cf7108c1ed0f4</sys_scope>
+        <sys_scope_delete display_value="">5392158399684dadb65ccaf90d0dd9b9</sys_scope_delete>
+        <sys_update_name>sys_app_module_e366c05e07d23010580cf7108c1ed000</sys_update_name>
+        <sys_update_version display_value="sys_app_module_e366c05e07d23010580cf7108c1ed000">af66c05e07d23010580cf7108c1ed001</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-01 20:12:37</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
