@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
     <sys_script_client action="INSERT_OR_UPDATE">
-        <active>false</active>
+        <active>true</active>
         <applies_extended>false</applies_extended>
         <condition/>
         <description/>
@@ -11,8 +11,31 @@
         <name>NeedIt onLoad Example</name>
         <order/>
         <script><![CDATA[function onLoad() {
-   //Type appropriate comment here, and begin script below
-   alert('Data loaded');
+//     var getDummyData = new GlideAjax('GetDummyData');
+//     getDummyData.addParam('sysparm_name', 'getDummyData');
+//     getDummyData.getXML(populateDummyData);
+
+    var ga = new GlideAjax('GetSalesforceToken');
+    ga.addParam('sysparm_name', 'getToken');
+    ga.getXML(callback);
+
+    function populateDummyData(response) {
+        var answer = response.responseXML.documentElement.getAttribute("answer");
+        g_form.addInfoMessage(answer);
+        answer = JSON.parse(answer);
+        g_form.addInfoMessage(answer.var1);
+        g_form.addInfoMessage(answer.var2);
+    }
+
+    function callback(response) {
+        var answer = response.responseXML.documentElement.getAttribute("answer");
+        var data = JSON.parse(answer);
+        g_form.addInfoMessage(data);
+        var data = JSON.parse(data);
+        g_form.addInfoMessage(data.access_token);
+        g_form.addInfoMessage(data.instance_url);
+    }
+
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -20,7 +43,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>46c3502a079e3010580cf7108c1ed0f1</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_name>NeedIt onLoad Example</sys_name>
         <sys_overrides/>
         <sys_package display_value="NeedIt" source="x_690352_needit">d475c01a07d23010580cf7108c1ed0f4</sys_package>
@@ -28,7 +51,7 @@
         <sys_scope display_value="NeedIt">d475c01a07d23010580cf7108c1ed0f4</sys_scope>
         <sys_update_name>sys_script_client_46c3502a079e3010580cf7108c1ed0f1</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-09-02 15:53:42</sys_updated_on>
+        <sys_updated_on>2021-09-07 22:20:02</sys_updated_on>
         <table>x_690352_needit_needit</table>
         <type>onLoad</type>
         <ui_type>0</ui_type>

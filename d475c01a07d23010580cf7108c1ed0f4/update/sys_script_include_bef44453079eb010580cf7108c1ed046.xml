@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_690352_needit.GetEmailAddress</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description>Script Include to return an email address. The calling client-side script passes a sys_id for a User table record.</description>
+        <name>GetEmailAddress</name>
+        <script><![CDATA[var GetEmailAddress = Class.create();
+GetEmailAddress.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+	getEmail: function() {
+		gs.info('### Script include: GetEmailAddress');
+		gs.info('### sysparm_userID:' + this.getParameter('sysparm_userID'));
+		var userRecord = new GlideRecord("sys_user");
+		userRecord.get(this.getParameter('sysparm_userID'));
+		var obj = {
+			email: userRecord.email + ''
+		};
+		var data = JSON.stringify(obj);
+		return data;	
+	},
+    type: 'GetEmailAddress'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-04 22:42:02</sys_created_on>
+        <sys_id>bef44453079eb010580cf7108c1ed046</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>GetEmailAddress</sys_name>
+        <sys_package display_value="NeedIt" source="x_690352_needit">d475c01a07d23010580cf7108c1ed0f4</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="NeedIt">d475c01a07d23010580cf7108c1ed0f4</sys_scope>
+        <sys_update_name>sys_script_include_bef44453079eb010580cf7108c1ed046</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-07 20:47:28</sys_updated_on>
+    </sys_script_include>
+</record_update>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_690352_needit.GetDummyData</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>GetDummyData</name>
+        <script><![CDATA[var GetDummyData = Class.create();
+GetDummyData.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	getDummyData: function() {
+		gs.info('### Inside getDummyData()');
+		var obj = {};
+		obj.var1 = 'Hello';
+		obj.var2 = 'World';
+		try {
+			var data = JSON.stringify(obj);
+			gs.info('### getDummyData() returns:' + data);
+			return data;
+		} catch (error) {
+			gs.error('### getDummyData() error:' + error);
+		}
+		
+	},
+    type: 'GetDummyData'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-07 17:30:24</sys_created_on>
+        <sys_id>b3bb5e4007a23010580cf7108c1ed0b3</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>GetDummyData</sys_name>
+        <sys_package display_value="NeedIt" source="x_690352_needit">d475c01a07d23010580cf7108c1ed0f4</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="NeedIt">d475c01a07d23010580cf7108c1ed0f4</sys_scope>
+        <sys_update_name>sys_script_include_b3bb5e4007a23010580cf7108c1ed0b3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-07 20:27:07</sys_updated_on>
+    </sys_script_include>
+</record_update>
