@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Flow to manage the process when the hardware is stolen</description>
+        <internal_name>stolen_hardware</internal_name>
+        <label_cache>[]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Stolen hardware</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-08 19:03:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>22dab39c07227010580cf7108c1ed000</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Stolen hardware</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_690352_needit">d475c01a07d23010580cf7108c1ed0f4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">d475c01a07d23010580cf7108c1ed0f4</sys_scope>
+        <sys_update_name>sys_hub_flow_22dab39c07227010580cf7108c1ed000</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-08 19:03:21</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=22dab39c07227010580cf7108c1ed000"/>
+    <sys_variable_value action="delete_multiple" query="document_key=22dab39c07227010580cf7108c1ed000"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=22dab39c07227010580cf7108c1ed000^sys_idNOT IN66dab39c07227010580cf7108c1ed001"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>22dab39c07227010580cf7108c1ed000</id>
+        <name>Stolen hardware</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-08 19:03:21</sys_created_on>
+        <sys_id>66dab39c07227010580cf7108c1ed001</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-08 19:03:21</sys_updated_on>
+    </sys_flow_cat_variable_model>
+</record_update>
