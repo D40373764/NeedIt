@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_script_action">
+    <sysevent_script_action action="DELETE">
+        <active>true</active>
+        <condition_script/>
+        <description/>
+        <event_name>approval.inserted</event_name>
+        <name>Get SFDC Token</name>
+        <order>100</order>
+        <script><![CDATA[var getSalesforceToken = new GetSalesforceToken();
+var token = getSalesforceToken.getToken();
+gs.info('token=');
+gs.info(token);]]></script>
+        <synchronous>false</synchronous>
+        <sys_class_name>sysevent_script_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-13 18:52:33</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5d67a5c207e23010580cf7108c1ed017</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Get SFDC Token</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_690352_needit">d475c01a07d23010580cf7108c1ed0f4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">d475c01a07d23010580cf7108c1ed0f4</sys_scope>
+        <sys_update_name>sysevent_script_action_5d67a5c207e23010580cf7108c1ed017</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-13 18:59:49</sys_updated_on>
+    </sysevent_script_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">d475c01a07d23010580cf7108c1ed0f4</application>
+        <file_path/>
+        <instance_id>96f0fc66db077304f492c597059619fc</instance_id>
+        <instance_name>dev90937</instance_name>
+        <name>sysevent_script_action_5d67a5c207e23010580cf7108c1ed017</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sysevent_script_action"&gt;&lt;sysevent_script_action action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;condition_script/&gt;&lt;description/&gt;&lt;event_name&gt;approval.inserted&lt;/event_name&gt;&lt;name&gt;Get SFDC Token&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;script&gt;&lt;![CDATA[var getSalesforceToken = new GetSalesforceToken();
+var token = getSalesforceToken.getToken();
+gs.info('token=');
+gs.info(token);]]&gt;&lt;/script&gt;&lt;synchronous&gt;false&lt;/synchronous&gt;&lt;sys_class_name&gt;sysevent_script_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-09-13 18:52:33&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;5d67a5c207e23010580cf7108c1ed017&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;Get SFDC Token&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="NeedIt" source="x_690352_needit"&gt;d475c01a07d23010580cf7108c1ed0f4&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="NeedIt"&gt;d475c01a07d23010580cf7108c1ed0f4&lt;/sys_scope&gt;&lt;sys_update_name&gt;sysevent_script_action_5d67a5c207e23010580cf7108c1ed017&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-09-13 18:59:49&lt;/sys_updated_on&gt;&lt;/sysevent_script_action&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1211143210</payload_hash>
+        <record_name>Get SFDC Token</record_name>
+        <reverted_from/>
+        <source>076f1dca07a23010580cf7108c1ed045</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-13 18:59:49</sys_created_on>
+        <sys_id>67f9a14607e23010580cf7108c1ed0aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17be0879eba0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-13 18:59:49</sys_updated_on>
+        <type>Script Action</type>
+        <update_guid>6ff9a1467ce23010624382470a84e3a9</update_guid>
+        <update_guid_history>6ff9a1467ce23010624382470a84e3a9:-1211143210,d95865c24be2301007dd067fe6a86ee1:-1633304578</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-13 19:31:33</sys_created_on>
+        <sys_db_object display_value="" name="sysevent_script_action">sysevent_script_action</sys_db_object>
+        <sys_id>133fe643bb0c4de9904600bbed090819</sys_id>
+        <sys_metadata>5d67a5c207e23010580cf7108c1ed017</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Get SFDC Token</sys_name>
+        <sys_package display_value="NeedIt" source="x_690352_needit">d475c01a07d23010580cf7108c1ed0f4</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">d475c01a07d23010580cf7108c1ed0f4</sys_scope>
+        <sys_scope_delete display_value="">5392158399684dadb65ccaf90d0dd9b9</sys_scope_delete>
+        <sys_update_name>sysevent_script_action_5d67a5c207e23010580cf7108c1ed017</sys_update_name>
+        <sys_update_version display_value="sysevent_script_action_5d67a5c207e23010580cf7108c1ed017">67f9a14607e23010580cf7108c1ed0aa</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-13 19:31:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
